@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/elements.css">
+    <link rel="stylesheet" href="assets/css/classes.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close-menu"
+    role="button">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <h1 onclick="getElementById('close-menu').checked=false;">
+                <a href="#intro">LOGO</a>
+            </h1>
+            <nav>
+                <ul onclick="getElementById('close-menu').checked=false;">
+                    <li><a href="#intro">Intro</a></li>
+                    <li><a href="#girls">Events</a></li>
+                    <li><a href="#grid-one">Python Grid</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#grid-two">Grid</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <section id="intro" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Python is Fucking Awesome!!!!!</h2>
+                <p>Great software is supported by great people, and Python is no exception. Our user base is
+                    enthusiastic and dedicated to spreading use of the language far and wide. Our community can help
+                    support the beginner, the expert, and adds to the ever-increasing open-source knowledgebase.</p>
+            </div>
+            <div class="intro-img">
+                <img src="assets/img/javascript.svg" alt="Logo de HTML, CSS e JS.">
+            </div>
+        </div>
+    </section>
+    <section id="girls" class="section white-bg">
+        <div class="main-content girls-content">
+            <h2>Django Girls</h2>
+            <p>Django Girls
+                If you are a woman and want to learn how to make websites, we have good news for you: we are holding a
+                one-day workshop for beginners!
+
+                It will take place on 21st May, 2022 REMOTELY in Malabo.
+
+                We believe the IT industry will greatly benefit from bringing more women into technology. We want to
+                give you an opportunity to learn how to program and become one of us – women programmers!
+
+                Workshops are free of charge and if you cannot afford internet connectivity but are very motivated to
+                learn and then share your knowledge with others, we may have some funds to help you out with your
+                internet cost during the workshop. Don't wait too long: you can apply for the workshop only until 30th
+                April, 2022!</p>
+        </div>
+    </section>
+    <section id="grid-one" class="grid-one main-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Python Grid</h2>
+            <p class="grid-description">Uma Breve Descrição.</p>
+            <div class="grid">
+                <article>
+                    <h3>Teste 1</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt explicabo sit rem perferendis,
+                        consequuntur laboriosam? Sequi, incidunt! Distinctio facilis facere, asperiores quae, ab, earum
+                        voluptates harum minima quaerat nesciunt quam!</p>
+                </article>
+                <article>
+                    <h3>Teste 2</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt explicabo sit rem perferendis,
+                        consequuntur laboriosam? Sequi, incidunt! Distinctio facilis facere, asperiores quae, ab, earum
+                        voluptates harum minima quaerat nesciunt quam!</p>
+                </article>
+                <article>
+                    <h3>Teste 3</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt explicabo sit rem perferendis,
+                        consequuntur laboriosam? Sequi, incidunt! Distinctio facilis facere, asperiores quae, ab, earum
+                        voluptates harum minima quaerat nesciunt quam!</p>
+                </article>
+            </div>
+    </section>
+    <section id="gallery" class="grid-one white-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Gallery</h2>
+            <p class="grid-description">Uma Breve Descrição.</p>
+            <div class="grid">
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=1" alt="random unsplash">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=2" alt="random unsplash">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=3" alt="random unsplash">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=4" alt="random unsplash">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=5" alt="random unsplash">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=6" alt="random unsplash">
+                </div>
+            </div>
+    </section>
+    <section id="grid-two" class="grid-one main-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Grid</h2>
+            <p class="grid-description">Uma Breve Descrição.</p>
+            <div class="grid">
+                <article>
+                    <h3>Grid</h3>
+                    <p>PyCon Lithuania is about Python programming language, it's ecosystem, tooling, applications.
+
+                        You can expect anything in this track. Talks about best practices, libraries, frameworks, solution; applications in Web Development, Devops, Security, Sience and more.</p>
+                </article>
+                <article>
+                    <h3>Teste 2</h3>
+                    <p>PyData is a community for developers and users of open source data tools. On meetup.com platform PyData is in 68 countries, has 198 groups and 191227 member.
+
+                        You can expect talks about data analysis, science, ML engineering, ETL pipelines and so on.</p>
+                </article>
+                <article>
+                    <h3>Teste 3</h3>
+                    <p>Newest addition to PyCon LT, Education summit welcomes everyone who are interested in using Python for education purposes. We promote use of Python in secondary and higher education settings.
+
+                        All secondary education students and teacher are welcome to PyCon Lithuania for free!</p>
+                </article>
+            </div>
+    </section>
+    <section id="pricing" class="section white-bg">
+        <div class="main-content girls-content">
+            <h2>Pricing</h2>
+            <p>
+                After a successful online GeoPython 2021 - with participants from over 40 countries - we are proud to announce GeoPython 2022 which will be in Basel, Switzerland and online (hybrid).
+                The conference is focused on Python and Geo, its toolkits and applications. GeoPython 2022 will be the continuation of the yearly conference series. The conference started in 2016 and this is now the 7th edition. Key subjects for the conference series are the combination of the Python programming language and Geo.</p>
+            <div class="responsive-table">
+            <table>
+                <caption>Pricing Table</caption>
+                <thead>
+                    <tr>
+                    <th>Title 1</th>
+                    <th>Title 2</th>
+                    <th>Title 3</th>
+                    <th>Title 4</th>
+                    <th>Title 5</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Content 1</td>
+                        <td>Content 2</td>
+                        <td>Content 3</td>
+                        <td>Content 4</td>
+                        <td>Content 5</td>
+                    </tr>
+                    <tr>
+                        <td>Content 1</td>
+                        <td>Content 2</td>
+                        <td>Content 3</td>
+                        <td>Content 4</td>
+                        <td>Content 5</td>
+                    </tr>
+                    <tr>
+                        <td>Content 1</td>
+                        <td>Content 2</td>
+                        <td>Content 3</td>
+                        <td>Content 4</td>
+                        <td>Content 5</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td >Testando</td>
+                    </tr>
+                </tfoot>
+            </table>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Python is Fucking Awesome!!!!!</h2>
+                <p>Great software is supported by great people, and Python is no exception. Our user base is
+                    enthusiastic and dedicated to spreading use of the language far and wide. Our community can help
+                    support the beginner, the expert, and adds to the ever-increasing open-source knowledgebase.</p>
+            </div>
+            <div class="intro-img">
+                <img src="assets/img/javascript.svg" alt="Logo de HTML, CSS e JS.">
+            </div>
+            <div class="contact-form">
+             <fieldset class="form-grid">
+                 <legend>Contact me</legend>
+
+                 <div class="form-group">
+                     <label for="first-name">First name</label>
+                    <input type="text" name="first-name" id="first-name" placeholder="First name">
+                 </div>
+                 <div class="form-group">
+                    <label for="last-name">Last name</label>
+                   <input type="text" name="last-name" id="last-name" placeholder="Last name">
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                   <input type="email" name="email" id="email" placeholder="E-mail">
+                </div>
+                <div class="form-group full-widht">
+                    <label for="message">Message</label>
+                   <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+                <div class="form-group full-widht">
+                    <button type="submit">Send message</button>
+                </div>
+                
+             </fieldset>   
+            </div>
+        </div>
+    </section>
+    <footer id="footer" class="footer white-bg">
+        <p><a target="_blank" href="https://twitter.com/FabiFigueiredo">Feito com ♥ por Fabiana França</a></p>
+    </footer>
+    <a class="back-to-top" href="#">Top ↑</a>
+</body>
+
+</html>
